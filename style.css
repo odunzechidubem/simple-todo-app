@@ -7,7 +7,7 @@
 }
 
 .container {
-  background-color: rgb(126, 204, 36);
+  background-color: #ffe600;
   width: 100%;
   min-height: 100vh;
   padding: 10px;
@@ -29,11 +29,6 @@
   margin-bottom: 20px;
   margin-top: 15px;
 }
-
-/* .todo-app h2 img {
-  width: 50px;
-  margin-left: 10px;
-} */
 
 .row {
   display: flex;
@@ -58,12 +53,12 @@ input {
 button {
   border: none;
   outline: none;
-  background: #ffa600;
+  background: #ffe600;
   border-radius: 20px;
   margin: 15px;
   padding: 16px 50px;
   cursor: pointer;
-  color: #f0d9d9;
+  color: #4e4949;
   font-size: 18px;
 }
 
@@ -78,28 +73,11 @@ ul li {
   position: relative;
 }
 
-/* .ul li::before {
-  content: '';
-  position: absolute;
-  height: 28px;
-  width: 28px;
-  border-radius: 50%;
-  background-image: url(/images/unchecked2.png);
-  background-size: cover;
-  background-position: center;
-  top: 12px;
-  left: 8px;
-} */
-
 ul li.checked {
   color: #000000;
   text-decoration: line-through;
   font-weight: lighter;
 }
-
-/* ul li.checked::before {
-  background-image: url(/images/checked.jpeg);
-} */
 
 ul li span {
   position: absolute;
@@ -115,7 +93,7 @@ ul li span {
 }
 
 ul li span:hover {
-  background: #ffa600;
+  background: #ffe600;
 }
 
 /* Media Queries for Mobile Screens */
